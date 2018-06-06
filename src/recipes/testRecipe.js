@@ -5,6 +5,8 @@
     Description: JS script for Josh
 */
 
+window.debugCSSUsage = true
+
 window.innerHeightCount = 0;
 window.innerWidthCount = 0;
 window.screenXCount = 0;
