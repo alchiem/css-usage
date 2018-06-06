@@ -12,10 +12,10 @@ window.innerWidthCount = 0;
 window.screenXCount = 0;
 window.screenYCount = 0;
 
-window._oldInnerHeight = window.innerHeight;
-window._oldInnerWidth = window.innerWidth;
-window._oldScreenX = window.screenX;
-window._oldScreenY = window.screenY;
+window._oldInnerHeight = window.innerHeight();
+window._oldInnerWidth = window.innerWidth();
+window._oldScreenX = window.screenX();
+window._oldScreenY = window.screenY();
 
 window.innerHeight = function() {
     window.innerHeightCount++;
